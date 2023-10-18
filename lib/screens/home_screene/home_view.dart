@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -87,13 +88,11 @@ class _HomePageState extends State<HomePage> {
         ),),
         backgroundColor: Colors.cyan,
       ),
-      body: const Column(
+      body:  Column(
         children: [
-          Center(
-            child: Text(
-              'Google_Map'
-            ),
-          )
+
+
+
         ],
       ),
     );

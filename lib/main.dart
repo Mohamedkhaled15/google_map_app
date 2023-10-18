@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_map_app/screens/google_map_screene/map_view.dart';
 
 import 'package:google_map_app/screens/home_screene/home_view.dart';
 
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: const MapPage(),
     );
   }
 }
